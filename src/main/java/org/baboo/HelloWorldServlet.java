@@ -13,7 +13,7 @@ public class HelloWorldServlet extends HttpServlet {
   public void init() throws ServletException
   {
       // Do required initialization
-      message = "Hello Jenkins, from servlet";
+      message = "Hello Jenkins, from servlet in Tomcat";
   }
 
   public void doGet(HttpServletRequest request,
