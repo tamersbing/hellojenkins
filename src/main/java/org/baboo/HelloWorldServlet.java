@@ -9,6 +9,7 @@ import javax.servlet.http.*;
 public class HelloWorldServlet extends HttpServlet {
  
   private String message;
+  private String password="mypassword";
 
   public void init() throws ServletException
   {
