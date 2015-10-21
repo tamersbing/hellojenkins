@@ -9,12 +9,12 @@ import javax.servlet.http.*;
 public class HelloWorldServlet extends HttpServlet {
  
   private String message;
-  private String password="mypassword";
+  // private String password="mypassword";
 
   public void init() throws ServletException
   {
       // Do required initialization
-      message = "Hello Jenkins, from servlet in Tomcat after autocompile and git update to github ... time for a demo to CloudDev";
+      message = "Hello Jenkins, from servlet in Tomcat after autocompile and git update to github ... time for a demo for CP";
   }
 
   public void doGet(HttpServletRequest request,
