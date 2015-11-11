@@ -14,7 +14,7 @@ public class HelloWorldServlet extends HttpServlet {
   public void init() throws ServletException
   {
       // Do required initialization
-      message = "Hello Jenkins, from servlet in Tomcat after autocompile and git update to github ... time for a demo for CP";
+      message = "Hello GEHC, from servlet in Tomcat after autocompile and git update to github ... time for a demo for CP";
   }
 
   public void doGet(HttpServletRequest request,
