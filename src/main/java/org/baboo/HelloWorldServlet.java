@@ -14,7 +14,7 @@ public class HelloWorldServlet extends HttpServlet {
   public void init() throws ServletException
   {
       // Do required initialization
-      message = "Hello GE Healthcare, from servlet in Tomcat after autocompile and git update to github ... time for a demo for CP";
+      message = "Hello Nutanix, from servlet in Tomcat after autocompile and git update to github.";
   }
 
   public void doGet(HttpServletRequest request,
